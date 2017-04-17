@@ -27,7 +27,11 @@ puts "5 skills created"
 	Portfolio.create!(
 		title: "Portfolio title: #{portfolio_item}",
 	    subtitle: "My great service",
-	    body: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla.",
+	    body: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. 
+	    	Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis 
+	    	dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit 
+	    	sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet 
+	    	non magna. Donec ullamcorper nulla non metus auctor fringilla.",
 	    main_image: "http://placehold.it/600x400",
 	    thumb_image: "http://placehold.it/350x200"
     )
