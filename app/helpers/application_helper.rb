@@ -5,7 +5,7 @@ module ApplicationHelper
         else 
        	 	(link_to "Login",  new_user_session_path) + 
        	 	"<br>".html_safe +
-       	 	(link_to "Registar",  new_user_registration_path) 
+       	 	(link_to "Register",  new_user_registration_path) 
        	end
 	end
 
@@ -14,6 +14,10 @@ module ApplicationHelper
       		greeting = "Thanks for visiting me from #{session[:source]} you are using the #{layout_name} layout"
       		content_tag(:p, greeting, class: "source-greeting")
     	end
+    end
+
+    def copyright_generator
+      AndersonViewTool::Renderer.copyright 'Aaron Anderson', 'All rights reserved'
     end
 
 end
