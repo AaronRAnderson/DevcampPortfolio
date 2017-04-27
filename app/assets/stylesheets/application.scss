@@ -165,6 +165,16 @@ body {
  * Custom Styles
  */
 
+body {
+  /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/82/66/fe/8266fea2dc868583c5cb8bcf0ca55a14.jpg");*/
+  background-color: #0000cc;
+  color: #ff0099;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+
+
 .card-block {
   color: black;
   text-align: left;
@@ -186,7 +196,10 @@ body {
   float: none;
 }
 
+.inner > .masthead-brand {
+  color: #66ffff;
 
+}
 
 
 
