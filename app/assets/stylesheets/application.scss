@@ -73,6 +73,10 @@ body {
   margin-bottom: 0;
 }
 
+.masthead-brand{
+  margin-bottom: 0px;
+}
+
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: bold;
@@ -202,12 +206,11 @@ body {
 
 .inner > .masthead-brand {
   color: #66ffff;
-
 }
 
-.inner > .masthead-brand a {
+.inner > .masthead-brand a:active {
   color: #66ffff;
-
+  text-decoration: underline;
 }
 
 .t-size {
@@ -227,8 +230,6 @@ body {
   color: black;
   background-color: #66ffff;
 }
-
-
 
 
 
