@@ -57,6 +57,23 @@ module ApplicationHelper
   end
 
   def page_name_link 
-      link_to 'Aaron R Anderson', about_me_path
+    name_link = ''
+      name_link << "<a href='#{about_me_path}' #{active? about_me_path}'>Aaron R Anderson</a>"
+    name_link.html_safe     
   end
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
