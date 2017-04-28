@@ -171,11 +171,44 @@ h6, .h6 {
  * Custom Styles
  */
 
+
+
+
+.blog-sidebar p {
+  font-size: 15px;
+
+}
+
+.sidebar-link {
+  padding-top: 1rem;
+
+}
+
+.sidebar-link h3 {
+  text-decoration: underline;
+}
+
 .social-links li {
-  font-size: 2.5em;
+  margin-left: 1rem;
+  padding-right: 1rem;
+  
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.nav-name {
+  margin-top: .50rem;
+  margin-bottom: 0;
+  margin-left: -10rem ;
+  padding-bottom: 0;
+   
 }
 
 
+.nav-name a {
+  color: #cdddeb;
+  
+}
 
 
 

@@ -28,11 +28,6 @@ module ApplicationHelper
       },
 
       {
-        url: about_me_path,
-        title: 'About Me'
-      },
-
-      {
         url: contact_path,
         title: 'Contact'
       },
@@ -60,7 +55,18 @@ module ApplicationHelper
   def active? path
     "active" if current_page? path
   end
+
+  def page_name_link
+    if current_page? about_me_path
+      "Aaron R Anderson"
+    else
+       link_to 'Aaron R Anderson', about_me_path
+    end
+  end
 end
+
+
+
 
 
 

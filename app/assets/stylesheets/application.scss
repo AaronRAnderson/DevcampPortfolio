@@ -166,11 +166,10 @@ body {
  */
 
 body {
-  /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/82/66/fe/8266fea2dc868583c5cb8bcf0ca55a14.jpg");*/
-  background-color: #0000cc;
-  color: #ff0099;
-  text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  
+  background-color: #0000b3;
+  color: #ff751a;
+
 }
 
 
@@ -201,12 +200,28 @@ body {
   margin-right: 15px;
 }
 
-
 .inner > .masthead-brand {
   color: #66ffff;
 
 }
 
+.inner > .masthead-brand a {
+  color: #66ffff;
+
+}
+
+.t-size {
+  font-size: 1.2em;
+
+}
+.t-size > a {
+  color: #ff751a;
+}
+
+.h-decor {
+  text-decoration: underline;
+
+}
 
 
 

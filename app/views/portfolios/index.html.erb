@@ -1,12 +1,8 @@
 <div class="album text-muted">
   <div class="container">
+    <h3 class="create"><%= link_to "Create New Item", new_portfolio_path if logged_in?(:site_admin)%></h3>
     <div class="row">
-
-
-     <%= link_to "Create New Item", new_portfolio_path if logged_in?(:site_admin)%>
-
-
-     <%= render partial: 'portfolio_item', collection: @portfolio_items %>
+      <%= render partial: 'portfolio_item', collection: @portfolio_items %>
     </div>
   </div>
 </div>
