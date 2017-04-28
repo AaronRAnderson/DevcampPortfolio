@@ -5,7 +5,7 @@ module DefaultPageContent
 		before_filter :set_page_defaults
 	end
   def set_page_defaults
-  	@page_title = "Devcamp Portfolio | My portfolio Website"
+  	@page_title = "Aaron R Anderson | Portfolio Website"
   	@seo_keywords = "Aaron Anderson Portfolio"
   end
 end
