@@ -63,7 +63,6 @@ h6, .h6 {
 /* Active state gets a caret at the bottom */
 .nav-link.active {
   color: #fff;
-  text-decoration: underline;
 }
 .nav-link.active:after {
   position: absolute;
