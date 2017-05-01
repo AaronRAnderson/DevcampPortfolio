@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -171,7 +170,6 @@ body {
 
 body {
   
-  background-color: #0000b3;
   color: #ff751a;
 
 }
@@ -204,14 +202,15 @@ body {
   margin-right: 15px;
 }
 
-.inner > .masthead-brand {
-  color: #66ffff;
+a.name-nav {
+  color: #66ffff;  
 }
 
-.inner > .masthead-brand .active {
-  color: #66ffff;
+
+a.name-nav.active {
   text-decoration: underline;
 }
+
 
 .t-size {
   font-size: 1.2em;
@@ -226,10 +225,56 @@ body {
 
 }
 
-.btn-custom {
+/*.btn-custom {
   color: black;
   background-color: #66ffff;
+}*/
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  /*background: image-url('home_bg.png') no-repeat;*/
+  background-size: cover;
 }
+
+.app-footer {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

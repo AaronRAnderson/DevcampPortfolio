@@ -56,9 +56,20 @@ module ApplicationHelper
     "active" if current_page? path
   end
 
-  def page_name_link 
+  def name_items 
+    [ 
+      {
+        url: about_me_path,
+        title: 'Aaron R Anderson'
+      }
+    ]
+  end
+
+  def page_name_link style = 'name-nav'
     name_link = ''
-      name_link << "<a href='#{about_me_path}' #{active? about_me_path}'>Aaron R Anderson</a>"
+    name_items.each do |nam|
+      name_link << "<a href='#{nam[:url]}' class='#{style} #{active? nam[:url]}'>#{nam[:title]}</a>"
+    end
     name_link.html_safe     
   end
 end
