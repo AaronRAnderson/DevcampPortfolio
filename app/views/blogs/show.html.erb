@@ -1,10 +1,16 @@
 <div class="col-sm-8 blog-main">
 
   <h2><%= @blog.title %></h2>
-  <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin)%>
-  <p>
-    <%= @blog.topic.title %>
-  </p>
+  <% blog = @blog %>
+  <nav class="breadcrumb">
+    <%= link_to @blog.topic.title, topic_path(@blog.topic), class: "breadcrumb-item" %>
+  
+    <span class="pull-right">
+      <%= render partial: 'blogs/admin_actions', locals: {blog: blog} %>
+    </span>
+
+  </nav>
+
   <p>
     <%= markdown @blog.body %> 
   </p>
