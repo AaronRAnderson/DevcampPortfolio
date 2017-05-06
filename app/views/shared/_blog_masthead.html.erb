@@ -1,7 +1,13 @@
 <div class="blog-header">
   <div class="container">
     <h1 class="blog-title">My Blog</h1>
+    <p> <%= link_to "See all Blogs", blogs_path unless current_page? blogs_path %></p>
     <p class="lead blog-description">Some stuf I know</p>
-    <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+    <span>
+      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+    </span>
+    <span>
+      <%= link_to "Topics", topics_path %>
+    </span>
   </div>
 </div>
