@@ -204,6 +204,7 @@ body {
 }
 
 a.name-nav {
+  padding-right: 100px ;
   color: #66ffff;  
 }
 
@@ -242,7 +243,7 @@ a.name-nav.active {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('Code.gif') no-repeat;
   background-size: cover;
 }
 

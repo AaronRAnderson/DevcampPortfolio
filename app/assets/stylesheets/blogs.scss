@@ -203,23 +203,25 @@ h6, .h6 {
   margin-top: .50rem;
   margin-bottom: 0;
   margin-left: -7rem ;
-  margin-right: 2rem;
+  margin-right: 0rem;
   padding-bottom: 0;
+  color: #ff751a;
    
 }
 
 
 .nav-name a {
+  margin-right: 5rem;
   color: #cdddeb;
   
 }
 
 .nav-back{
   background-color: #0000b3 ;
-  color: #ff751a;
 }
 
 .nav-back h3 a {
+
   color: #66ffff;
 }
 
@@ -245,7 +247,10 @@ background-color: #0000b3
   font-size: 1em;
   padding: 3rem;
 }
-
+a.name-nav {
+  margin-right: 5rem ;
+  color: #66ffff;  
+}
 
 
 
